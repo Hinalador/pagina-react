@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #b2b1b153;
+}
+
+@font-face{
+    font-family: carolingia;
+    src: url(../Fonts/carolingia.ttf);
+}
+
+@font-face {
+    font-family: Abel;
+    src: url(../Fonts/Abel-Regular.ttf);
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 73%;
+    padding: 1rem;
+}
+
+.navbar {
+    padding: 2rem;
+    display: flex;
+}
+
+.espacio {
+    width: 100%;
+}
+
+.divsnav {
+    padding: 1rem;
+    justify-content: right;
+}
+
+.a1 {
+    text-decoration: none;
+    padding: 0.6em 3.5em;
+    font-family: Abel;
+    color: white;
+    background-color: #801810;
+}
+
+.a1:hover {
+    background-color: #B21F1A;
+}
+
+.a1:active {
+    background-color: #E32524;
+}

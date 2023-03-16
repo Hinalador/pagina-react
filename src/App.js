@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Footer from './Components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header
+        logo="wiqayalogoytexto"
+        bt1="Inicio"
+        bt2="Nosotros"
+        bt3="Jugar"
+      />
+      <Footer
+        Wilogo="wiqayalogoytexto"
+        fbicon="fb"
+        insicon="ins"
+        twiticon="tw"
+        contact="CONTACTO"
+        numero="Numero de contacto: +57 301-218-06-21"
+        sigue="SIGUENOS EN"
+      />
     </div>
   );
 }
